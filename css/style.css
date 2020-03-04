@@ -33,6 +33,13 @@ body{
     color:white;
 
 }
+.content-second{
+    line-height: 2;
+    margin-left: 50px;
+}
+.dollars{
+    font-size: 2rem;
+}
 .myButton {
 	box-shadow: 0px 1px 0px 0px #fff6af;
 	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
@@ -47,7 +54,8 @@ body{
 	font-weight:bold;
 	padding:11px 49px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #ffee66;
+    text-shadow:0px 1px 0px #ffee66;
+    margin-top:20px;
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
@@ -65,6 +73,17 @@ body{
     height:400px;
     left:810px;
     bottom:0px;
-    background-color: hsl(218, 22%, 67%);
+    background-color: rgb(74,190,189);
     
+}
+.third-part h2{
+    padding:10px;
+}
+.offers{
+    display: inline-block;
+    list-style-type: none;
+}
+.offers li{
+    margin-top:15px;
+
 }
