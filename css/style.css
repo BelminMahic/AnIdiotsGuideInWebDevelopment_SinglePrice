@@ -1,0 +1,71 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    font-size: 100%;
+}
+.first-part{
+    width:97.55%;
+    height: 300px;
+    padding:20px;
+    border: 1px solid black;
+    line-height: 4;
+}
+.content-first{
+    margin-left: 40px;
+}
+.content-first h2{
+    color:hsl(179, 62%, 43%);
+}
+.days{
+    color:hsl(71, 73%, 54%);
+}
+.access{
+    color:hsl(218, 22%, 67%);
+}
+.second-part{
+    position: relative;
+    width:750px;
+    height:400px;
+    padding:30px;
+    background-color: hsl(179, 62%, 43%);
+    color:white;
+
+}
+.myButton {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:11px 49px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.third-part{
+    position: absolute;
+    padding:30px;
+    width:715px;
+    height:400px;
+    left:810px;
+    bottom:0px;
+    background-color: hsl(218, 22%, 67%);
+    
+}
